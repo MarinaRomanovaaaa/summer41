@@ -44,647 +44,6 @@ body{
   color: #000000;
 }
 
-  
-  /*главная*/ 
-.page1 
- {
-        background-image: url('img/фото\ солдаты\ главная.jpg');
-         background-repeat: no-repeat;
-         background-size: cover;
-         min-height: 100vh;
-      } 
-
-
-.container{
-    width: 1230px;
-    margin: 0 auto;
-}
-header{
-    display: flex;
-justify-content: center;
-align-items: center ;
-}
-.aa{
-    color: #000000;
-}
-.aa:hover{
-    color:#86280b;
-    text-decoration:underline;
-    }
-.En:hover {
-        -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-        transform: scale(1.2);
-     
-        }
-
-.Bel:hover {
-            -webkit-transform: scale(1.2);
-            -ms-transform: scale(1.2);
-            transform: scale(1.2);
-         
-            }
-.share:hover {
-                -webkit-transform: scale(1.2);
-                -ms-transform: scale(1.2);
-                transform: scale(1.2);
-             
-                }
-
-.imge:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-  }
-
-.menu-list {
-display: flex;
-font-family: 'Cormorant SC';
-text-shadow: 2px 2px 8px;
-font-weight: 500;
-font-size: 24px;
-line-height: 27px;
-letter-spacing: 0.06em;
-
-}
-.menu-list_item{
-text-decoration: none;
-margin-right: 40px;
-}
-.numbers{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding-top: 20vh;
-    animation-name: flicker;
-}
-.nextbutton {
-
-    text-align: center;
-   padding-top: 10vh;
-    
-    }
-    .img1 {
-      -webkit-transition: all 1s ease;
-      -moz-transition: all 1s ease;
-      -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-      transition: all 1s ease;}
-      
-      .img1:hover {
-      -webkit-filter: contrast(210%);}
-      
-
-
-    
-    /*О сайте*/  
-
-.page2{
-        color: black;
-        
-            background-image: url('img/Group 17.png');
-             background-repeat: no-repeat;
-             background-size: cover;
-             min-height: 100vh;
-             overflow: hidden;
-           
-            
-  } 
-    
- .years{
-          display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-.years {
-	background-image: url('img/image024-10.gif');
-  background-size:contain ;
-	color: transparent;
-	-moz-background-clip: text;
-	-webkit-background-clip: text;
-	text-transform: uppercase;
-	font-size: 145px;
-  font-weight: 10000;
-	line-height: .75;
-	margin: 10px 0;
-}
-
-.container{
-  display: flex;
-  flex-direction: column;
-        width: 1230px;
-        margin: 0 auto;
-    }
-.header{
-      display: flex;
-    }
-    
-    
-    .menu-list_itemactive { 
-      font-size: 26px;
-      padding-right: 40px;
-      text-decoration: underline;
-
-  }
-  .menu-list_itemactive a {
-    color:#4d1200;
-    font-style: bold;
-  }
-  .list2{
-        display: flex;
-flex-direction: column;
-
-    }
- 
-.book{
-      display: flex;
-      justify-content: center;
-      position: relative;
-         
-    }
-   
-
-   
-.text1{
-      position: absolute;
-     left: 51%;
-      right: 27%;
-      top: 3%;
-      font-weight: 500;
-     font-style: normal;
-     Line-height:34,99px;
-     Letter-spacing:3.5%;
-     font-family: 'Bad Script'; 
-   Line-height:23px;
-     font-Size: 16px;
-     animation-duration: 4s;
-     animation-name: fadeIn;
-     
-
-    } .imga1{
-      margin-top: -150px;
-      margin-left: 550px;
-      width: 220px;
-      height: 170px;
-      position: absolute;
-
-    }
-    .imga2{
-      margin-top: -135px;
-      margin-left: 750px;
-      width: 200px;
-      height: 170px;
-      position: absolute;
-
-    }
-    @keyframes fadeIn{
-        0% {opacity:0;}
-        100% {opacity:1;}
-      }
-
-    .text2{
-      position: absolute;
-      left: 51%;
-      right: 27%;
-      top: 27%;
-      font-weight: 500;
-      font-style: normal;
- 
-      Line-height:34,99px;
-      Letter-spacing:3.5%;
-      font-family: 'Bad Script'; 
-   Line-height:23px;
-     font-Size: 16px;
-      text-align: center; 
-      animation-duration: 4s;
-      animation-name: fadeIn;
-      
-    }
-    @keyframes fadeIn{
-        0% {opacity:0;}
-        100% {opacity:1;}
-      }
-    .text3{
-      position: absolute;
-      justify-content: center;
-      left: 53%;
-      right: 27%;
-      top: 47%;
-      font-weight: 500;
-      font-style: normal;
- 
-      Line-height:24px;
-      Letter-spacing:3.5%;
-      font-family: 'Bad Script'; 
-      
-      font-Size: 16px;
-      animation-duration: 4s;
-      animation-name: fadeIn;
-    }
-    @keyframes fadeIn{
-        0% {opacity:0;}
-        100% {opacity:1;}
-      }
-    
-    .text4{
-
-        position:absolute;
-       left: 30%;
-       top: 48%;
-       right: 58%;
-       
-     
-        
-        font-weight: 500;
-        font-style: normal;
-   
-     
-        Letter-spacing:3.5%;
-        font-family: 'Bad Script'; 
-        Line-height:22px;
-        font-Size: 18px;
-        color: #000000;
-
-transform: rotate(-16.28deg);
-        animation-duration: 4s;
-        animation-name: fadeIn;  
-    }
-    @keyframes fadeIn{
-        0% {opacity:0;}
-        100% {opacity:1;}
-      }
-
-      .imga{
-        
-        width: 50%;
-        height: 50%;
-        margin-top: -4%;
-         }
-
-
-
-
-
-/*adapt*/
-
-
-      @media only screen and (max-device-width:1920px)
-      {
-        .container{
-          width: 65vw;
-          margin: 0 auto;
-      }
-      .menu-list {
-        text-shadow: 0.10vw 0.10vw 0.42vw;
-        font-weight: 78.13vw;
-        font-size: 1.56vw;
-        line-height: 1.56vw;
-        letter-spacing: 0.06em;
-        }
-      
-      .imge {
-        width: 9vw;
-        height: 9vw;
-      }
-   
-      .En {
-        width:2vw;
-        height: 2vw;
-      }
-
-      .Bel {
-        width: 2vw;
-        height: 2vw;
-      }
-
-      .share {
-        width: 2vw;
-        height: 2vw;
-      }
-  
-      .img1{
-        width: 9vw;
-        height: 8.95vw;
-      }
-      }
-
-
-
-
-      @media only screen and (max-device-width:1680px)
-      {
-        .container{
-          width: 76.17vw;
-          margin: 0 auto;
-      }
-      .menu-list {
-        text-shadow: 0.10vw 0.10vw 0.42vw;
-        font-weight: 78.13vw;
-        font-size: 1.56vw;
-        line-height: 1.56vw;
-        letter-spacing: 0.06em;
-  
-        }
-      
-      .imge {
-        width: 9vw;
-        height: 9vw;
-      }
-   
-      .En {
-        width:2vw;
-        height: 2vw;
-      }
-
-      .Bel {
-        width: 2vw;
-        height: 2vw;
-      }
-
-      .share {
-        width: 2vw;
-        height: 2vw;
-      }
-  
-      .img1{
-        width: 9.82vw;
-        height: 9.23vw;
-      }
-
-      }
-
-
-
-       @media only screen and (max-device-width:1600px)
-      {
-        .container{
-          width: 77.33vw;
-          margin: 0 auto;
-      }
-      .menu-list {
-        text-shadow: 0.10vw 0.10vw 0.42vw;
-        font-weight: 78.13vw;
-        font-size: 1.56vw;
-        line-height: 1.56vw;
-        letter-spacing: 0.06em;
-        }
-      
-      .imge {
-        width: 9vw;
-        height: 9vw;
-      }
-   
-      .En {
-        width:2vw;
-        height: 2vw;
-      }
-
-      .Bel {
-        width: 2vw;
-        height: 2vw;
-      }
-
-      .share {
-        width: 2vw;
-        height: 2vw;
-      }
-      
-      .img1{
-        width: 10.31vw;
-        height: 9.69vw;
-      }
-    
-      }
-
-
-
-
-
-      @media only screen and (max-device-width:1440px)
-      {
-        .container{
-          width: 90.57vw;
-          margin: 0 auto;
-      }
-      .menu-list {
-        text-shadow: 0.10vw 0.10vw 0.42vw;
-        font-weight: 78.13vw;
-        font-size: 1.56vw;
-        line-height: 1.56vw;
-        letter-spacing: 0.06em;
-  
-        }
-      
-      .imge {
-        width: 9vw;
-        height: 9vw;
-      }
-   
-      .En {
-        width:2vw;
-        height: 2vw;
-      }
-
-      .Bel {
-        width: 2vw;
-        height: 2vw;
-      }
-
-      .share {
-        width: 2vw;
-        height: 2vw;
-      }
-  
-      .img1{
-        width: 11.46vw;
-        height: 10.76vw;
-      }
-
-      }
-
-
-
-
-
-
-      @media only screen and (max-device-width:1400px)
-      {
-        .container{
-          width: 90.21vw;
-          margin: 0 auto;
-      }
-      .menu-list {
-        text-shadow: 0.10vw 0.10vw 0.42vw;
-        font-weight: 78.13vw;
-        font-size: 1.56vw;
-        line-height: 1.56vw;
-        letter-spacing: 0.06em;
-  
-        }
-      
-      .imge {
-        width: 9vw;
-        height: 9vw;
-      }
-   
-      .En {
-        width:2vw;
-        height: 2vw;
-      }
-
-      .Bel {
-        width: 2vw;
-        height: 2vw;
-      }
-
-      .share {
-        width: 2vw;
-        height: 2vw;
-      }
-  
-      .img1{
-        width: 11.79vw;
-        height: 11.07vw;
-      }
-
-      }
-
-
-
-      @media only screen and (max-device-width:1280px)
-      {
-        .container{
-          width: 96.14vw;
-          margin: 0 auto;
-      }
-      .menu-list {
-        text-shadow: 0.10vw 0.10vw 0.42vw;
-        font-weight: 78.13vw;
-        font-size: 1.56vw;
-        line-height: 1.56vw;
-        letter-spacing: 0.06em;
-  
-        }
-      
-      .imge {
-        width: 9vw;
-        height: 9vw;
-      }
-   
-      .En {
-        width:2vw;
-        height: 2vw;
-      }
-
-      .Bel {
-        width: 2vw;
-        height: 2vw;
-      }
-
-      .share {
-        width: 2vw;
-        height: 2vw;
-      }
-  
-      .img1{
-        width: 12.89vw;
-        height: 12.11vw
-      }
-
-      }
-
-
-
-
-      @media only screen and (max-device-width:1152px)
-      {
-        .container{
-          width: 105vw;
-          margin: 0 auto;
-      }
-      .menu-list {
-        text-shadow: 0.10vw 0.10vw 0.42vw;
-        font-weight: 78.13vw;
-        font-size: 1.56vw;
-        line-height: 1.56vw;
-        letter-spacing: 0.06em;
-  
-        }
-      
-      .imge {
-        width: 9vw;
-        height: 9vw;
-      }
-   
-      .En {
-        width:2vw;
-        height: 2vw;
-      }
-
-      .Bel {
-        width: 2vw;
-        height: 2vw;
-      }
-
-      .share {
-        width: 2vw;
-        height: 2vw;
-      }
-  
-      .img1{
-        width: 14.32vw;
-        height: 13.45vw
-      }
-
-      }
-
-
-      @media only screen and (max-device-width:1024px)
-      {
-        .container{
-          width: 100.18vw;
-          margin: 0 auto;
-      }
-      .menu-list {
-        text-shadow: 0.10vw 0.10vw 0.42vw;
-        font-weight: 78.13vw;
-        font-size: 1.56vw;
-        line-height: 1.56vw;
-        letter-spacing: 0.06em;
-  
-        }
-      
-      .imge {
-        width: 9vw;
-        height: 9vw;
-      }
-   
-      .En {
-        width:2vw;
-        height: 2vw;
-      }
-
-      .Bel {
-        width: 2vw;
-        height: 2vw;
-      }
-
-      .share {
-        width: 2vw;
-        height: 2vw;
-      }
-  
-      .img1{
-        width: 16.11vw;
-        height: 15.14vw;
-      }
-
-      }
-
-
-
-
   /*leto41*/    
 
   .page3{
@@ -726,8 +85,8 @@ top: 7%;
 .pic2{
  position: absolute;
  margin-top: -1%;
- height: 74%;
- width: 63%;
+ height: 73%;
+ width: 65%;
 }
 
 
@@ -754,17 +113,18 @@ Font-size: 24px;
 Line-height: 40px;
 Letter-spacing: 3.5%;
 top: 50%;
-left: 3%;
+left: 2%;
 Width:59%;
 height: 25%;
 }
-
+/*стрелка вперёд*/
 .arrowforward{
   position: absolute;
   bottom: 2%;
  right: 10%;
 }
 
+/*блок вперёд*/
 .forward{
   position: absolute;
   right: 0;
@@ -772,26 +132,30 @@ height: 25%;
 }
 
 
-/*назад*/
+/* блок назад*/
 .back{
   position: absolute;
   bottom: 0;
   left: 0;
 }
+
 /*фон назад*/
 .backfon{
   position: relative;
 
 }
+
 /*стрелка назад*/
 .arrowback{
   position: absolute;
   left: 0%;
 }
+
 /*фон вперёд*/
 .forwardfon{
   position: relative;
 }
+
 /*стрелка вперед*/
 
 .forward::before{
@@ -806,10 +170,397 @@ transform: rotate(-31.87deg);
 
 
 
-/*position: absolute;
-width:35%  ;
-height: 30%;
-top: 61.5%;
-left: 69%;
-background: url(giphy-downsized.png);
-transform: rotate(-31.87deg);*/
+
+
+
+
+
+
+
+
+/*adapt*/
+
+
+@media only screen and (max-width : 1824px) {
+  .pic1{
+    position: relative;
+    padding-top: 2%;
+    padding-left: 14%;
+ }
+.Data {
+ position: absolute;
+top: 7%;
+   left: 18%;
+    Font-size:35px;
+    Line-height: 49px;
+    Letter-spacing: 3.5%;}
+
+.pic2{
+  position: absolute;
+  margin-top: -1%;
+  height: 75%;
+  width: 65%;
+     }
+ 
+        /*основной текст*/
+.texxt1{
+     position: absolute;
+     Font-size: 26px;
+     top: 20%;
+     left: 2%;
+     Width:60%;
+     }
+     
+     /*2й абзац осн текста */
+.texxt2{
+     position: absolute;
+     Font-size: 26px;
+     top: 50%;
+     left: 2%;
+     Width:60%;
+     }
+.logo1{
+      position: absolute;
+      left: 90%;
+      top: 3%;;
+    }
+    
+.arrowforward{
+  position: absolute;
+  bottom: 2%;
+ right: 10%;
+}
+
+.forward{
+  position: absolute;
+  height: 22%;
+  right: 0;
+  bottom: 0;
+}
+
+.back{
+  position: absolute;
+  height: 8%;
+  bottom: 0;
+  left: 0;
+}
+
+      
+.forward::before{
+  content: url('img/giphy-downsized.gif');
+  position: absolute;
+
+  width:10%  ;
+  top: -8%;
+  left: -88%;
+  
+  }
+
+
+}
+
+
+@media only screen and (max-width : 1440px)
+ {
+  .pic1{
+    position: relative;
+    padding-top: 2%;
+    padding-left: 14%;
+ }
+.Data {
+ position: absolute;
+top: 7%;
+   left: 18%;
+    Font-size:32px;
+    Letter-spacing: 3.5%;}
+
+.pic2{
+  position: absolute;
+  margin-top: -1%;
+  height: 75%;
+  width: 66%;
+     }
+ 
+        /*основной текст*/
+.texxt1{
+     position: absolute;
+     Font-size: 22px;
+     top: 21%;
+     left: 2%;
+     Width:62%;
+     }
+     
+     /*2й абзац осн текста */
+.texxt2{
+     position: absolute;
+     Font-size: 22px;
+     top: 45%;
+     left: 2%;
+     Width:62%;
+     }
+.logo1{
+      position: absolute;
+      left: 90%;
+      top: 3%;;
+    }
+    
+.arrowforward{
+  position: absolute;
+  bottom: 2%;
+ right: 10%;
+}
+
+.forward{
+  position: absolute;
+  height: 22%;
+  right: 0;
+  bottom: 0;
+}
+
+.back{
+  position: absolute;
+  height: 8%;
+  bottom: 0;
+  left: 0;
+}
+
+      
+.forward::before{
+  content: url('img/giphy-downsized.gif');
+  position: absolute;
+height: 1%;
+  width:10%  ;
+  top: -8%;
+  left: -88%;
+  
+  }
+
+
+
+}
+
+
+
+
+@media only screen and (max-device-width : 1024px) 
+{
+  .pic1{
+    position: relative;
+    padding-top: 2%;
+    padding-left: 12%;
+    height: 50%;
+    width: 50%;
+ }
+.Data {
+ position: absolute;
+top: 4%;
+   left: 15%;
+    Font-size:28px;
+    
+    Letter-spacing: 3.5%;}
+
+.pic2{
+  position: absolute;
+  margin-top: -1%;
+  height: 75%;
+  width: 65%;
+     }
+ 
+.texxt1{
+     position: absolute;
+     Font-size: 18px;
+     top: 19%;
+     left: 2%;
+     Width:61%;
+     }
+     
+.texxt2{
+     position: absolute;
+     Font-size: 18px;
+     top: 43%;
+     left: 2%;
+     Width:61%;
+     }
+
+.logo1{
+      position: absolute;
+      left: 88%;
+      top: 3%;;
+    }
+
+.arrowforward{
+  position: absolute;
+  bottom: 2%;
+ right: 10%;
+}
+
+.forward{
+  position: absolute;
+  height: 15%;
+  right: 0;
+  bottom: 0;
+}
+
+.back{
+  position: absolute;
+  
+  bottom: 0;
+  left: 0;
+}
+
+      
+.forward::before{
+  content: url('img/giphy-downsized.gif');
+  position: absolute;
+
+  top: -8%;
+  left: -88%;
+  
+  }
+
+}
+
+
+
+@media only screen and (max-device-width : 800px)
+ {
+  .pic1{
+    position: relative;
+    padding-top: 2%;
+    padding-left: 12%;
+    height: 19%;
+    width: 50%;
+ }
+.Data {
+ position: absolute;
+top: 3%;
+   left: 15%;
+    Font-size:20px;
+
+    Letter-spacing: 3.5%;}
+
+.pic2{
+  position: absolute;
+  margin-top: -1%;
+  height: 82%;
+  width: 65%;
+     }
+ 
+.texxt1{
+     position: absolute;
+     Font-size: 17px;
+     top: 12%;
+     left: 2%;
+     Width:61%;
+     }
+     
+.texxt2{
+     position: absolute;
+     Font-size: 17px;
+     top: 38%;
+     left: 2%;
+     Width:61%;
+     }
+
+.logo1{
+      position: absolute;
+      left: 90%;
+      top: 3%;;
+    }
+
+.arrowforward{
+  position: absolute;
+  bottom: 2%;
+ right: 10%;
+}
+
+.forward{
+  position: absolute;
+  height: 22%;
+  right: 0;
+  bottom: 0;
+}
+
+.back{
+  position: absolute;
+  height: 8%;
+  bottom: 0;
+  left: 0;
+}
+
+      
+
+}
+
+
+
+
+@media only screen and (max-device-width : 660px)
+ {
+  .pic1{
+    position: relative;
+    padding-top: 2%;
+    padding-left: 12%;
+    height: 19%;
+    width: 50%;
+ }
+.Data {
+ position: absolute;
+top: 3%;
+   left: 15%;
+    Font-size:20px;
+
+    Letter-spacing: 3.5%;}
+
+.pic2{
+  position: absolute;
+  margin-top: -1%;
+  height: 35%;
+  width: 25%;
+     }
+ 
+.texxt1{
+     position: absolute;
+     Font-size: 16px;
+     top: 21%;
+     left: 2%;
+     Width:61%;
+     }
+     
+.texxt2{
+     position: absolute;
+     Font-size: 16px;
+     top: 45%;
+     left: 2%;
+     Width:61%;
+     }
+
+.logo1{
+      position: absolute;
+      left: 90%;
+      top: 3%;;
+    }
+
+.arrowforward{
+  position: absolute;
+  bottom: 2%;
+ right: 10%;
+}
+
+.forward{
+  position: absolute;
+  height: 22%;
+  right: 0;
+  bottom: 0;
+}
+
+.back{
+  position: absolute;
+  height: 8%;
+  bottom: 0;
+  left: 0;
+}
+
+      
+
+}
