@@ -362,7 +362,7 @@ top: 4%;
 .pic2{
   position: absolute;
   margin-top: -1%;
-  height: 75%;
+  height: 78%;
   width: 65%;
      }
  
@@ -428,7 +428,7 @@ top: 4%;
     position: relative;
     padding-top: 2%;
     padding-left: 12%;
-    height: 19%;
+    height: 33%;
     width: 50%;
  }
 .Data {
@@ -448,7 +448,8 @@ top: 3%;
  
 .texxt1{
      position: absolute;
-     Font-size: 17px;
+     Font-size: 16px;
+      Letter-spacing: 3.5%;
      top: 12%;
      left: 2%;
      Width:61%;
@@ -456,7 +457,8 @@ top: 3%;
      
 .texxt2{
      position: absolute;
-     Font-size: 17px;
+     Font-size: 16px;
+     Letter-spacing: 3.5%;
      top: 38%;
      left: 2%;
      Width:61%;
@@ -464,8 +466,8 @@ top: 3%;
 
 .logo1{
       position: absolute;
-      left: 90%;
-      top: 3%;;
+      left: 83%;
+      top: 1%;;
     }
 
 .arrowforward{
@@ -501,44 +503,125 @@ top: 3%;
     position: relative;
     padding-top: 2%;
     padding-left: 12%;
-    height: 19%;
+    height: 33%;
     width: 50%;
  }
 .Data {
  position: absolute;
-top: 3%;
+top: 1%;
    left: 15%;
-    Font-size:20px;
-
+    Font-size:19px;
     Letter-spacing: 3.5%;}
 
 .pic2{
   position: absolute;
   margin-top: -1%;
-  height: 35%;
-  width: 25%;
+  height: 82%;
+  width: 65%;
      }
  
 .texxt1{
      position: absolute;
-     Font-size: 16px;
-     top: 21%;
+     Font-size: 14px;
+     Letter-spacing: 3.5%;
+     line-height: normal;
+     top: 10%;
      left: 2%;
      Width:61%;
      }
      
 .texxt2{
      position: absolute;
-     Font-size: 16px;
-     top: 45%;
+     Font-size: 14px;
+     line-height: normal;
+     Letter-spacing: 3.5%;
+     top: 36%;
      left: 2%;
      Width:61%;
      }
 
 .logo1{
       position: absolute;
-      left: 90%;
-      top: 3%;;
+      left: 82%;
+      top: 1%;
+    }
+
+.arrowforward{
+  position: absolute;
+  bottom: 2%;
+ right: 10%;
+}
+
+.forward{
+  position: absolute;
+  height: 22%;
+  right: 0;
+  bottom: 0;
+}
+
+.back{
+  position: absolute;
+  height: 8%;
+  bottom: 0;
+  left: 0;
+}
+
+      
+
+}
+
+
+
+
+
+
+@media only screen and (max-device-width : 480px)
+ {
+  .pic1{
+    position: relative;
+    padding-top: 2%;
+    padding-left: 12%;
+    height: 33%;
+    width: 50%;
+ }
+.Data {
+ position: absolute;
+top: 1%;
+   left: 15%;
+    Font-size:19px;
+    Letter-spacing: 3.5%;}
+
+.pic2{
+  position: absolute;
+  margin-top: -1%;
+  height: 78%;
+  width: 80%;
+     }
+ 
+.texxt1{
+     position: absolute;
+     Font-size: 13px;
+     Letter-spacing: 3.5%;
+     line-height: normal;
+     top: 9%;
+     left: 2%;
+     Width:70%;
+     }
+     
+.texxt2{
+     position: absolute;
+     Font-size: 13px;
+     line-height: normal;
+     Letter-spacing: 3.5%;
+     top: 34%;
+     left: 2%;
+     Width:70%;
+     }
+
+.logo1{
+      position: absolute;
+      left: 77%;
+      top: 1%;
     }
 
 .arrowforward{
