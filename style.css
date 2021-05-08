@@ -437,7 +437,7 @@ top: 1%;
 @media only screen and (max-width : 480px)
  {
   .page3{
-    height: 100vh;
+    height: 90vh;
     overflow: hidden;
   }
  
