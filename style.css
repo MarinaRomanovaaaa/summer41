@@ -156,7 +156,7 @@ height: 25%;
   position: relative;
 }
 
-/*стрелка вперед*/
+/*гифка огонь*/
 
 .forward::before{
 content: url('img/giphy-downsized.gif');
@@ -437,7 +437,7 @@ top: 1%;
 @media only screen and (max-width : 480px)
  {
   .page3{
-    height: 100vh;
+    height: 80vh;
     overflow-y: hidden;
   }
  
@@ -461,7 +461,7 @@ top: 1%;
      }
  
 .texxt1{
-     Font-size: 13px;
+     Font-size: 12px;
      line-height: normal;
      top: 8%;
      left: 2%;
@@ -469,9 +469,9 @@ top: 1%;
      }
      
 .texxt2{
-     Font-size: 13px;
+     Font-size: 12px;
      line-height: normal;
-     top: 34%;
+     top: 37%;
      left: 2%;
      Width:79%;
      }
@@ -483,13 +483,18 @@ top: 1%;
       width: 15%;
     }
    
+.back{
+    height: 9%;
+}    
+.arrowback{
+top: 3%;
+}
 .forward{
-  height: 17%;
+  height: 15%;
 }
 .arrowforward{
-  bottom: 0%;
-  right: 0.7%;
-
+ top: 35%;
+right: 0;
 }
   
   
@@ -545,7 +550,7 @@ top: 1%;
    height: 15%;
     }
     .arrowforward{
-      bottom: 0;
+      top:33%;
       right: 0%;
     }
 
