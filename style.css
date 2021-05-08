@@ -438,7 +438,7 @@ top: 1%;
  {
   .page3{
     height: 95vh;
-    overflow-y: hidden;
+    overflow: hidden;
   }
  
   .pic1{
@@ -480,12 +480,10 @@ top: 1%;
       left: 83%;
       top: 1%;
       height: 10%;
-      width: 15%;
+      width: 16%;
     }
    
-.back{
-    height: 9%;
-}    
+   
 .arrowback{
 top: 3%;
 }
