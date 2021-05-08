@@ -437,7 +437,7 @@ top: 1%;
 @media only screen and (max-width : 480px)
  {
   .page3{
-    height: 95vh;
+    height: 100vh;
     overflow: hidden;
   }
  
@@ -457,7 +457,7 @@ top: 1%;
 .pic2{
   margin-top: -1%;
   height: 85%;
-  width: 86%;
+  width: 84%;
      }
  
 .texxt1{
@@ -479,11 +479,13 @@ top: 1%;
 .logo1{
       left: 83%;
       top: 1%;
-      height: 10%;
+      height: 9%;
       width: 17%;
     }
    
-   
+.back{
+  bottom: 0;
+}   
 .forward{
   height: 15%;
 }
