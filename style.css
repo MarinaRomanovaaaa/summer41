@@ -47,11 +47,6 @@ body{
 /*меню*/
 
 
-@font-face{
-  font-family: "Cormorant SC";
-  src: url("../Гамбургер для страниц дневника/CormorantSC-Medium.woff") format("woff");
-}
-
 body{
   background-color: #c4c0c0;
 }
@@ -569,13 +564,15 @@ left: 85%;
   height: 77%;
 }
 
-   
+.arrowback{
+  bottom: 0;
+}  
   
 .forward{
   height: 15%;
 }
 .arrowforward{
- top: 40%;
+ top: 35%;
 right: 0;
 }
   
