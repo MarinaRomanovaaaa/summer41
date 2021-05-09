@@ -490,7 +490,7 @@ top: 3%;
      Font-size: 14px;
      Letter-spacing: 3.5%;
      line-height: normal;
-     top: 10%;
+     top: 12%;
      left: 2%;
      Width:61%;
      }
@@ -546,7 +546,7 @@ top: 3%;
 .texxt1{
      Font-size: 12px;
      line-height: normal;
-     top: 10%;
+     top: 11%;
      left: 2%;
      Width:79%;
      }
@@ -570,14 +570,12 @@ left: 85%;
 }
 
    
-.back{
-  bottom: 0;
-}   
+  
 .forward{
   height: 15%;
 }
 .arrowforward{
- top: 35%;
+ top: 40%;
 right: 0;
 }
   
