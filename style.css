@@ -559,6 +559,15 @@ left: 85%;
   top: 1%;
  
 }
+.menu_for_diary{
+  top: 5%;
+  
+}
+
+#menu_toggle_diary:checked ~ .menu_for_diary {
+  visibility: visible;
+  right: 8%;
+}
 .logo1{
   width: 78%;
   height: 77%;
