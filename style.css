@@ -565,14 +565,14 @@ left: 85%;
 }
 
 .arrowback{
-  bottom: 0;
+  bottom: -0.5%;
 }  
   
 .forward{
   height: 15%;
 }
 .arrowforward{
- top: 35%;
+bottom: 3%;
 right: 0;
 }
   
