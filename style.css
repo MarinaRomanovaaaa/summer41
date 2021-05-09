@@ -520,8 +520,8 @@ top: 3%;
 @media only screen and (max-width : 480px)
  {
   .page3{
-    height: 95vh;
-    overflow: hidden;
+    height: 100vh;
+    overflow-y: hidden;
   }
  
   .pic1{
@@ -533,20 +533,20 @@ top: 3%;
 .Data {
 top: 3%;
    left: 15%;
-    Font-size:18px;
+    Font-size:17px;
     line-height: normal;
     Letter-spacing: 3.5%;}
 
 .pic2{
   margin-top: -1%;
-  height: 70%;
+  height: 73%;
   width: 84%;
      }
  
 .texxt1{
      Font-size: 12px;
      line-height: normal;
-     top: 8%;
+     top: 10%;
      left: 2%;
      Width:79%;
      }
@@ -554,7 +554,7 @@ top: 3%;
 .texxt2{
      Font-size: 12px;
      line-height: normal;
-     top: 37%;
+     top: 39%;
      left: 2%;
      Width:79%;
      }
